@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YAALI - SHADOWS OF THE WING: A mythic Indian action-adventure game set in 6th century South India. Experience stealth, parkour, and Yaali transformations.">
+    <meta name="keywords" content="YAALI, game pitch, Indian mythology, action-adventure, Dravidian culture">
+    <meta property="og:title" content="YAALI - SHADOWS OF THE WING">
+    <meta property="og:description" content="When fear takes form, wings rise. A mythic Indian action-adventure game.">
+    <meta property="og:type" content="website">
+    <title>YAALI - SHADOWS OF THE WING | Game Pitch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">YAALI</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#overview" class="nav-link">Overview</a></li>
+                <li><a href="#world" class="nav-link">World</a></li>
+                <li><a href="#mythology" class="nav-link">Mythology</a></li>
+                <li><a href="#story" class="nav-link">Story</a></li>
+                <li><a href="#characters" class="nav-link">Characters</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#download" class="nav-link">Download</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">YAALI</span>
+                <span class="title-subtitle">SHADOWS OF THE WING</span>
+            </h1>
+            <p class="hero-tagline">When fear takes form, wings rise.</p>
+            <div class="hero-subtitle">A Mythic Indian Action-Adventure Game</div>
+            <div class="cta-buttons">
+                <a href="#overview" class="cta-btn cta-primary">View Game Pitch</a>
+                <a href="#download" class="cta-btn cta-secondary">Download GDD</a>
+                <a href="#trailer" class="cta-btn cta-tertiary">Watch Teaser</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Game Overview -->
+    <section class="section" id="overview">
+        <div class="container">
+            <h2 class="section-title">Game Overview</h2>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <h3 class="card-title">Genre</h3>
+                    <p>Narrative Action-Adventure · Mythic Realism</p>
+                </div>
+                <div class="overview-card">
+                    <h3 class="card-title">Setting</h3>
+                    <p>6th-century South India during the Irunda Kaalam</p>
+                </div>
+                <div class="overview-card">
+                    <h3 class="card-title">Core Experience</h3>
+                    <p>Stealth → Parkour → Yaali Transformations → Mythic Boss Fights</p>
+                </div>
+                <div class="overview-card">
+                    <h3 class="card-title">Player Fantasy</h3>
+                    <p>Become the Winged Heir. Shape fear into power.</p>
+                </div>
+            </div>
+            <div class="overview-description">
+                <p><strong>YAALI — SHADOWS OF THE WING</strong> blends grounded Dravidian myth, emotional storytelling, and a transformation-based combat system where the player masters the three Yaali forms: <span class="highlight">Focus</span>, <span class="highlight">Endurance</span>, and <span class="highlight">Adaptability</span>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- The World -->
+    <section class="section section-dark" id="world">
+        <div class="container">
+            <h2 class="section-title">The World</h2>
+            <p class="section-intro">A world shaped by relics—The Wings (clarity) and The Sword of Pride (domination). Oppression under Emperor Raaya. Sculptors enslaved. Nature reacting to imbalance.</p>
+            <div class="location-grid">
+                <div class="location-card">
+                    <div class="location-image" style="background: linear-gradient(135deg, #2d4a2b 0%, #1a2f19 100%);"></div>
+                    <div class="location-info">
+                        <h3>Stone Forest Ashram</h3>
+                        <p>Ancient training grounds where princes learn discipline and destiny</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image" style="background: linear-gradient(135deg, #3d2817 0%, #1a0f08 100%);"></div>
+                    <div class="location-info">
+                        <h3>Cave of Destiny</h3>
+                        <p>Sacred chamber holding the Wing Core and Sword of Pride</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f1d30 100%);"></div>
+                    <div class="location-info">
+                        <h3>Floating Island Colonies</h3>
+                        <p>Hidden refuge where Ruthra was raised in secret</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image" style="background: linear-gradient(135deg, #4a3428 0%, #2a1a10 100%);"></div>
+                    <div class="location-info">
+                        <h3>Pazhi Tribal Belt</h3>
+                        <p>Home of the stone sculptors who channel fear into form</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image" style="background: linear-gradient(135deg, #5a4a3a 0%, #2a1a0a 100%);"></div>
+                    <div class="location-info">
+                        <h3>Capital Palace</h3>
+                        <p>Tyrant's seat of power and site of the final confrontation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Mythology -->
+    <section class="section" id="mythology">
+        <div class="container">
+            <h2 class="section-title">Core Mythology: The Yaali</h2>
+            <p class="section-intro mythology-intro">The Yaali (யாளி) is not merely a mythic beast but the philosophical spine of the story. The Yaali is fear sculpted into form. The Pazhi tribe channels emotion into stone through the <strong>Stone-Click Rhythm</strong>.</p>
+            
+            <div class="yaali-forms">
+                <div class="yaali-card yaali-lion">
+                    <div class="yaali-icon">🦁</div>
+                    <h3 class="yaali-title">Lion Yaali</h3>
+                    <p class="yaali-subtitle">Singha Yali — Focus</p>
+                    <p class="yaali-description">Mastery over the fear of being hunted transforms into Focus and Survival Instinct.</p>
+                    <ul class="yaali-abilities">
+                        <li>Precision strike</li>
+                        <li>Slow-motion awareness</li>
+                        <li>Predator-sense tracking</li>
+                    </ul>
+                </div>
+
+                <div class="yaali-card yaali-elephant">
+                    <div class="yaali-icon">🐘</div>
+                    <h3 class="yaali-title">Elephant Yaali</h3>
+                    <p class="yaali-subtitle">Yanai Yali — Endurance</p>
+                    <p class="yaali-description">Mastery over the fear of overwhelming power transforms into Endurance and Resistance.</p>
+                    <ul class="yaali-abilities">
+                        <li>Heavy blocks</li>
+                        <li>Shockwave counters</li>
+                        <li>Unbreakable stance</li>
+                    </ul>
+                </div>
+
+                <div class="yaali-card yaali-horse">
+                    <div class="yaali-icon">🐴</div>
+                    <h3 class="yaali-title">Horse Yaali</h3>
+                    <p class="yaali-subtitle">Kudhirai Yali — Adaptability</p>
+                    <p class="yaali-description">Mastery over the fear of unpredictable attack transforms into Speed and Adaptability.</p>
+                    <ul class="yaali-abilities">
+                        <li>Dash / blink movement</li>
+                        <li>Aerial agility</li>
+                        <li>Escape & re-engage tactics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Loop -->
+    <section class="section section-dark" id="gameloop">
+        <div class="container">
+            <h2 class="section-title">Game Loop</h2>
+            <div class="game-loop">
+                <div class="loop-step">
+                    <div class="loop-number">1</div>
+                    <h3>Stealth & Parkour</h3>
+                    <p>Roof runs, cliff jumps, underwater passages, temple interiors.</p>
+                </div>
+                <div class="loop-arrow">→</div>
+                <div class="loop-step">
+                    <div class="loop-number">2</div>
+                    <h3>Yaali Combat</h3>
+                    <p>Switch between Yaali forms in real-time.</p>
+                </div>
+                <div class="loop-arrow">→</div>
+                <div class="loop-step">
+                    <div class="loop-number">3</div>
+                    <h3>Relic Progression</h3>
+                    <p>Unlock Wing memories → upgrade abilities → trigger transformations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Story -->
+    <section class="section" id="story">
+        <div class="container">
+            <h2 class="section-title">The Story</h2>
+            
+            <div class="story-timeline">
+                <!-- Prologue -->
+                <div class="timeline-phase">
+                    <div class="phase-header" onclick="togglePhase(this)">
+                        <h3>Prologue — Cheliya & Raaya</h3>
+                        <span class="phase-toggle">+</span>
+                    </div>
+                    <div class="phase-content">
+                        <div class="sequence-card">
+                            <div class="sequence-number">0.1-0.6</div>
+                            <p><strong>Stone Forest Ashram:</strong> Two princes train under Guru Kala. Cheliya shows compassion; Raaya seeks dominance.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">0.7-0.9</div>
+                            <p><strong>Saint & Fate Lesson:</strong> A deer escapes a python only to meet a tiger. "Fate cannot be changed."</p>
+                            <div class="tag-group">
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">0.10-0.14</div>
+                            <p><strong>Cave of Destiny:</strong> Cheliya chooses Wings; Raaya takes the Sword. The Sword corrupts him instantly.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">0.15-0.18</div>
+                            <p><strong>Betrayal:</strong> Raaya attacks Cheliya. The duel is unwinnable. Cheliya falls. Twenty years of tyranny begin.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-gameplay">GAMEPLAY (Unwinnable)</span>
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Act 1 -->
+                <div class="timeline-phase">
+                    <div class="phase-header" onclick="togglePhase(this)">
+                        <h3>Act 1 — Ruthra the Thief</h3>
+                        <span class="phase-toggle">+</span>
+                    </div>
+                    <div class="phase-content">
+                        <div class="sequence-card">
+                            <div class="sequence-number">1-9</div>
+                            <p><strong>Island Heist:</strong> Masked Ruthra robs imperial tribute, escapes through underwater tunnels, and infiltrates the mainland.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">10-16</div>
+                            <p><strong>Meeting Kshala:</strong> Ruthra witnesses cruelty, encounters fierce tribal girl Kshala, and follows her to the Pazhi tribe.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">17-26</div>
+                            <p><strong>Discovery of Truth:</strong> Ruthra overhears Sidh reveal the truth—Cheliya was his father, murdered by Raaya. Ruthra is the Winged Heir.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Act 2 -->
+                <div class="timeline-phase">
+                    <div class="phase-header" onclick="togglePhase(this)">
+                        <h3>Act 2 — The Wings Return</h3>
+                        <span class="phase-toggle">+</span>
+                    </div>
+                    <div class="phase-content">
+                        <div class="sequence-card">
+                            <div class="sequence-number">27-33</div>
+                            <p><strong>Awakening:</strong> Ruthra touches his father's relics. Wing light flickers. He's summoned to the capital and imprisoned.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">34-39</div>
+                            <p><strong>Partial Transformation:</strong> Sparrow dream. First wings appear. Ruthra escapes using gliding abilities and reunites with Kshala.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">40-46</div>
+                            <p><strong>The Ritual:</strong> Sidh infiltrates as Rajaguru. Ruthra transforms into full Winged Yaali and diverts the river, flooding the palace.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                                <span class="tag tag-gameplay">GAMEPLAY</span>
+                            </div>
+                        </div>
+                        <div class="sequence-card">
+                            <div class="sequence-number">47-52</div>
+                            <p><strong>Final Battle:</strong> Winged Yaali vs Sword King. Kshala's rhythm restores clarity. Raaya falls. The Wings return.</p>
+                            <div class="tag-group">
+                                <span class="tag tag-gameplay">BOSS FIGHT</span>
+                                <span class="tag tag-cutscene">CUTSCENE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Mechanics -->
+    <section class="section section-dark" id="mechanics">
+        <div class="container">
+            <h2 class="section-title">Game Mechanics</h2>
+            <div class="mechanics-grid">
+                <div class="mechanic-card">
+                    <div class="mechanic-icon">🎭</div>
+                    <h3>Stealth</h3>
+                    <p>Rooftops · Shadow illusions · Underwater tunnels</p>
+                </div>
+                <div class="mechanic-card">
+                    <div class="mechanic-icon">🏃</div>
+                    <h3>Parkour</h3>
+                    <p>Free-climb · Valley jumps · Temple walls</p>
+                </div>
+                <div class="mechanic-card">
+                    <div class="mechanic-icon">⚔️</div>
+                    <h3>Yaali Mode</h3>
+                    <p>3 form switching · Real-time transformation</p>
+                </div>
+                <div class="mechanic-card">
+                    <div class="mechanic-icon">👑</div>
+                    <h3>Boss Battles</h3>
+                    <p>Multi-phase · Cinematic finishing sequences</p>
+                </div>
+                <div class="mechanic-card">
+                    <div class="mechanic-icon">💭</div>
+                    <h3>Echo Memories</h3>
+                    <p>Mixed gameplay + flashback cutscenes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Characters -->
+    <section class="section" id="characters">
+        <div class="container">
+            <h2 class="section-title">Characters</h2>
+            <div class="character-grid">
+                <div class="character-card">
+                    <div class="character-portrait" style="background: linear-gradient(135deg, #8b4513 0%, #4a2511 100%);"></div>
+                    <h3>Ruthra</h3>
+                    <p class="character-role">The Winged Heir (Playable)</p>
+                    <p class="character-desc">Stealth → Parkour → Yaali combat progression.</p>
+                </div>
+                <div class="character-card">
+                    <div class="character-portrait" style="background: linear-gradient(135deg, #8b0000 0%, #4a0000 100%);"></div>
+                    <h3>Kshala</h3>
+                    <p class="character-role">Tribal Warrior (AI Companion)</p>
+                    <p class="character-desc">Supports with rhythm, traps, and emotional beats.</p>
+                </div>
+                <div class="character-card">
+                    <div class="character-portrait" style="background: linear-gradient(135deg, #4682b4 0%, #1e3a5f 100%);"></div>
+                    <h3>Sidh</h3>
+                    <p class="character-role">Mentor</p>
+                    <p class="character-desc">Story anchor, infiltration strategist.</p>
+                </div>
+                <div class="character-card">
+                    <div class="character-portrait" style="background: linear-gradient(135deg, #2f1f1f 0%, #0f0505 100%);"></div>
+                    <h3>Raaya</h3>
+                    <p class="character-role">Final Boss</p>
+                    <p class="character-desc">Sword of Pride wielder, earth-shattering attacks.</p>
+                </div>
+                <div class="character-card">
+                    <div class="character-portrait" style="background: linear-gradient(135deg, #d4af37 0%, #8b7355 100%);"></div>
+                    <h3>Cheliya</h3>
+                    <p class="character-role">Fallen Prince</p>
+                    <p class="character-desc">Appears in visions, backstory, echo memory nodes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="section" id="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-bullet">◆</div>
+                    <div class="feature-text">
+                        <h4>Relic-Based Transformations</h4>
+                        <p>Master three Yaali forms with unique combat styles</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-bullet">◆</div>
+                    <div class="feature-text">
+                        <h4>Cinematic Stealth Traversal</h4>
+                        <p>Navigate rooftops, underwater tunnels, and temple interiors</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-bullet">◆</div>
+                    <div class="feature-text">
+                        <h4>Cave of Destiny Boss Arena</h4>
+                        <p>Epic multi-phase battles in sacred locations</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-bullet">◆</div>
+                    <div class="feature-text">
+                        <h4>Capital Flooding Set-Piece</h4>
+                        <p>Divert rivers and unleash environmental destruction</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-bullet">◆</div>
+                    <div class="feature-text">
+                        <h4>Tribal Rhythm QTE Moments</h4>
+                        <p>Channel fear through the Stone-Click Rhythm</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-bullet">◆</div>
+                    <div class="feature-text">
+                        <h4>Fully Voiced Story</h4>
+                        <p>Experience all 52 sequences with cinematic voice acting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trailer Breakdown -->
+    <section class="section section-dark" id="trailer">
+        <div class="container">
+            <h2 class="section-title">Teaser Trailer (60 Seconds)</h2>
+            <div class="trailer-breakdown">
+                <div class="trailer-beat">
+                    <div class="beat-time">0:00-0:05</div>
+                    <p>Guru VO: "We are shaped by choices." <span class="tag tag-cutscene">CUTSCENE</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:05-0:10</div>
+                    <p>Cheliya & Raaya spar at the ashram <span class="tag tag-cutscene">CUTSCENE</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:10-0:18</div>
+                    <p>Saint scene — deer/python/tiger <span class="tag tag-cutscene">CUTSCENE</span> <span class="tag tag-gameplay">GAMEPLAY</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:18-0:25</div>
+                    <p>Cave of Destiny — relic glow <span class="tag tag-cutscene">CUTSCENE</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:25-0:30</div>
+                    <p>Betrayal — Cheliya falls <span class="tag tag-cutscene">CUTSCENE</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:30-0:32</div>
+                    <p>Cut to black — silence</p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:32-0:40</div>
+                    <p>Ruthra rooftop escape <span class="tag tag-gameplay">GAMEPLAY</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:40-0:45</div>
+                    <p>Sword execution flash <span class="tag tag-cutscene">CUTSCENE</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:45-0:50</div>
+                    <p>Relic chest awakening <span class="tag tag-cutscene">CUTSCENE</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:50-0:58</div>
+                    <p>Yaali silhouette in storm sky <span class="tag tag-cutscene">CUTSCENE + VFX</span></p>
+                </div>
+                <div class="trailer-beat">
+                    <div class="beat-time">0:58-1:00</div>
+                    <p><strong>TITLE CARD: YAALI — SHADOWS OF THE WING</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads & Contact -->
+    <section class="section" id="download">
+        <div class="container">
+            <h2 class="section-title">Downloads & Contact</h2>
+            <div class="download-section">
+                <div class="download-card">
+                    <h3>Game Design Document</h3>
+                    <p>Complete GDD with mechanics, systems, and level design</p>
+                    <a href="#" class="download-btn">Download GDD (PDF)</a>
+                </div>
+                <div class="download-card">
+                    <h3>Pitch Deck</h3>
+                    <p>Visual presentation for publishers and investors</p>
+                    <a href="#" class="download-btn">Download Pitch Deck (PDF)</a>
+                </div>
+                <div class="download-card">
+                    <h3>Contact</h3>
+                    <p>Interested in publishing or collaboration?</p>
+                    <a href="mailto:contact@yaali.game" class="download-btn">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 YAALI - SHADOWS OF THE WING. All rights reserved.</p>
+            <p class="footer-tagline">When fear takes form, wings rise.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
